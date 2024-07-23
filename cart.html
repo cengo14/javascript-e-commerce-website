@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-TicaretW</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <!-- menü icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="index.html" class="logo">COSTY</a>
+            <nav class="navbar">
+                <a href="#" class="nav-link">Woman</a>
+                <a href="#" class="nav-link">Man</a>
+                <a href="#" class="nav-link">Kids</a>
+                <a href="#" class="nav-link">Accessories</a>
+            </nav>
+            <a href="cart.html" id="cart-icon"><i class='bx bx-shopping-bag' data-quantity="0"></i></a>
+
+        </div>
+    </header>
+    <section class="cart-container container">
+        <a href="index.html" class="back-homepage"><i class='bx bx-arrow-back'></i>
+            <span>Back To Home</span>
+        </a>
+        <h2 class="shopping-cart">Shopping Cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems">
+                    <div class="cart-item">
+                        <img width="100px"
+                            src="https://pangaia.com/cdn/shop/products/Recycled-Nylon-NW-Flwrdwn-Quilted-Collarless-Jacket-Cerulean-Blue-Female-1_bf4b2a54-8a7f-4174-bc49-8ef22b24bfdd.jpg?v=1666708230&width=1426"
+                            alt="cart">
+                        <div class="cart-item-info">
+                            <h2 class="cart-item-title">title</h2>
+                            <input type="number" min="1" value="1" class="cart-item-quantiy">
+                        </div>
+                        <h2>price</h2>
+                        <button class="remove-from-cart">remove</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <div id="cartTotal">112</div>
+                <a href="#" class="checkout-btn">checkout</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="footer-c container">
+            <div class="footer-box">
+                <h2>COSTY</h2>
+                <div class="social">
+                    <a href="#" class="bx"><i class="bx bxl-pinterest-alt"></i></a>
+                    <a href="#" class="bx"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="bx"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="bx"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="#" class="bx"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>HELP</h3>
+                <a href="#">CONTACT US</a>
+                <a href="#">FAQ</a>
+                <a href="#">SHIPMENT</a>
+                <a href="#">PAYMENT</a>
+                <a href="#">TRACK YOUR ORDER</a>
+                <a href="#">RETURN YOUR ORDER</a>
+            </div>
+            <div class="footer-box">
+                <h3>QUICK LIKS</h3>
+                <a href="#">MY CART</a>
+                <a href="#">WOMEN</a>
+                <a href="#">MAN</a>
+                <a href="#">KIDS</a>
+                <a href="#">ACCESSORIES</a>
+            </div>
+        </div>
+        <p class="copyright container">&copy; COSTY STUDIO</p>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
