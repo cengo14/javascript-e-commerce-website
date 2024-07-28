@@ -14,8 +14,8 @@ Bu proje, HTML, CSS ve JavaScript kullanılarak hazırlanmış basit bir e-ticar
 - **Responsive Tasarım:** Mobil ve masaüstü cihazlara uyumlu tasarım.
 
 ## Ekran Görüntüleri
+![Ana Sayfa](desktop.gif)
 
-*Ekran görüntüleri burada olacak*
 
 ## Kurulum
 
@@ -51,6 +51,3 @@ Her türlü katkı ve geri bildirime açığız! Lütfen bir **Issue** açın ve
 Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
-
-## Ekran Görüntüleri
-![Ana Sayfa](desktop.gif)
